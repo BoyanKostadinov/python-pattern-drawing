@@ -22,7 +22,7 @@ for row in range(size_of_diamond - beginning_of_interval, 0, -2):
     lower_half_counter += 1
 
 
-# Alternative solution
+# Alternative solution to the one above. The one below is lengthy and separates the cases when the number of rows is even or odd.
 
 from math import ceil
 # size_of_diamond = int(input())
